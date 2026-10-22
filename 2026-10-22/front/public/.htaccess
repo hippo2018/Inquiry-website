@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.htaccess|README\.md|.*\.sqlite.*|.*\.db)$">
+  Require all denied
+</FilesMatch>
